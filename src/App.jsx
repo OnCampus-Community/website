@@ -3,6 +3,7 @@ import "./App.css";
 import Landing from "./components/Landing/Landing";
 import { useEffect } from "react";
 import Features from "./components/features/Features";
+import Footer from "./components/footer/Footer";
 
 function App() {
 	useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
 			<Navbar />
 			<Landing />
 			<Features />
+			<Footer />
 		</>
 	);
 }

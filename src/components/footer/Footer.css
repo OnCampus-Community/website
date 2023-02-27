@@ -1,0 +1,27 @@
+.Footer {
+	width: 100%;
+	border-top: 2px solid black;
+	background: #ffc700;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 1rem;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.Footer p {
+	font-size: 1rem;
+	font-weight: 800;
+}
+
+.footerSocials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.footerSocial {
+	height: 1.5rem;
+}
