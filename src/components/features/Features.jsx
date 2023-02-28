@@ -1,4 +1,4 @@
-import FeatureBox from "./FeatureBox";
+import FeatureBox from "./FeatureBox.jsx";
 import collab from "../../assets/featureCollaboration.jpg";
 import netw from "../../assets/featureNetworking.jpg";
 import osd from "../../assets/featureOpensource.jpg";

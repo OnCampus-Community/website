@@ -1,10 +1,10 @@
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/Navbar.jsx";
 import "./App.css";
-import Landing from "./components/Landing/Landing";
+import Landing from "./components/Landing/Landing.jsx";
 import { useEffect } from "react";
-import Features from "./components/features/Features";
-import Footer from "./components/footer/Footer";
-import Cards from "./components/cards/Cards";
+import Features from "./components/features/Features.jsx";
+import Footer from "./components/footer/Footer.jsx";
+import Cards from "./components/cards/Cards.jsx";
 
 function App() {
 	useEffect(() => {

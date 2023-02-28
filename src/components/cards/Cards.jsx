@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "./Card.jsx";
 import img1 from "../../assets/card1.png";
 import img2 from "../../assets/card2.png";
 import img3 from "../../assets/card3.png";
