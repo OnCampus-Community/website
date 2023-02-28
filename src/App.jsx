@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Features from "./components/features/Features.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import Cards from "./components/cards/Cards.jsx";
+import Testimonial from "./components/testimonial/Testimonial.jsx";
 
 function App() {
 	useEffect(() => {
@@ -24,6 +25,7 @@ function App() {
 			<Navbar />
 			<Landing />
 			<Features />
+			<Testimonial />
 			<Cards />
 			<Footer />
 		</>

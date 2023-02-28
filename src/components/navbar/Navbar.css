@@ -9,6 +9,7 @@
 	justify-content: flex-start;
 	align-items: center;
 	border-bottom: 2px solid black;
+	z-index: 9999;
 }
 
 .navLogo {

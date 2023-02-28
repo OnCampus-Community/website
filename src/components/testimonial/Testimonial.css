@@ -1,0 +1,115 @@
+.Testimonial {
+	width: 100%;
+	background: white;
+	border-top: 2px solid black;
+	padding: 2rem 1rem;
+}
+
+.testimonialContainer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.testimonialCard {
+	padding: 1rem 1rem 0 1rem;
+	border: 2px solid black;
+	box-shadow: 5px 5px 0px #000000, 4px 4px 0px #000000, 3px 3px 0px #000000,
+		2px 2px 0px #000000, 1px 1px 0px #000000;
+	border-radius: 14px;
+	margin: 1.5rem;
+	margin-bottom: 2.5rem;
+	width: 100%;
+	max-width: 40rem;
+	display: flex;
+	height: 18rem;
+}
+
+.testimonialLeft {
+	width: 60%;
+	height: 100%;
+	display: flex;
+	position: relative;
+	align-items: flex-end;
+	justify-content: center;
+	padding: 1rem 1rem 0 1rem;
+}
+
+.testiDeco {
+	position: absolute;
+	z-index: -1;
+	max-width: 7rem;
+	min-width: 7rem;
+	top: 0;
+	left: 0;
+}
+
+.testiImageHolder {
+	height: 100%;
+	width: 100%;
+	border: 3px solid #000000;
+	border-radius: 200px 200px 0px 0px;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.testiImageHolder img {
+	width: 100%;
+	object-fit: cover;
+	height: 100%;
+}
+
+.testimonialRight {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.testiText {
+	text-align: justify;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.testiName {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.testiName p:nth-child(1) {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+
+.testiName p:nth-child(2) {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.dot {
+	background: #ffc700 !important;
+}
+
+@media only screen and (max-width: 760px) {
+	.testimonialCard {
+		flex-direction: column;
+		padding: 1rem;
+		gap: 1rem;
+		height: auto;
+	}
+	.testimonialLeft {
+		width: 100%;
+	}
+	.testiImageHolder {
+		width: 100%;
+		max-width: 15rem;
+		height: 15rem;
+	}
+}
