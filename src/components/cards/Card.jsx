@@ -10,7 +10,7 @@ const Card = (e) => {
 			<div className="cardContent">
 				<p className="cardTitle">{e.title}</p>
 				<p className="cardHeading">{e.heading}</p>
-				<a href={e.link}>{`Read More >`}</a>
+				<a href={e.link} target="_blank">{`Read More >`}</a>
 			</div>
 		</div>
 	);

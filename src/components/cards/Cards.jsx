@@ -1,7 +1,8 @@
 import Card from "./Card.jsx";
-import img1 from "../../assets/card1.png";
+import img1 from "../../assets/card1.webp";
 import img2 from "../../assets/card2.png";
 import img3 from "../../assets/card3.png";
+import img4 from "../../assets/card4.jpg";
 import "./Cards.css";
 
 const Cards = () => {
@@ -13,27 +14,27 @@ const Cards = () => {
 			<div className="cardsContainer">
 				<Card
 					image={img1}
-					title="Resource"
-					heading="See how others are growing in our Discord server"
-					link=""
+					title="Flutter UI Components"
+					heading="collection of different pre made Ui components."
+					link="https://github.com/OnCampus-Community/Flutter-UI-Components"
 				/>
 				<Card
 					image={img2}
-					title="Webinar"
-					heading="Keep an eye on us through twitter"
-					link=""
+					title="Python Typing Test"
+					heading="made with Python, using Tkinter, a default GUI libray in python."
+					link="https://github.com/OnCampus-Community/Python-Typing-Test"
 				/>
 				<Card
 					image={img3}
-					title="E-Book"
-					heading="Reinventing work: New imperatives for the future of work"
-					link=""
+					title=" Awesome-README"
+					heading="List of GitHub profiles that have awesome customization"
+					link="https://github.com/OnCampus-Community/Awesome-README"
 				/>
 				<Card
-					image={img3}
-					title="Resource"
-					heading="See how others are growing in our Discord server"
-					link=""
+					image={img4}
+					title="Diabetes-Prediction"
+					heading="Diabetes Prediction using Support Vector Machine (SVM)"
+					link="https://github.com/OnCampus-Community/Diabetes-Predictuion"
 				/>
 			</div>
 		</div>
