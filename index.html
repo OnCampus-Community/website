@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/assets/index-ae1bc1c5.js"></script>
-    <link rel="stylesheet" href="/assets/index-a21aaf64.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>OnCampus | Official</title>
+		<script type="module" crossorigin src="/assets/index-2c621969.js"></script>
+		<link rel="stylesheet" href="/assets/index-f09b5819.css">
+	</head>
+	<body>
+		<div id="root"></div>
+		
+		<script>
+			let title = document.title;
+			window.addEventListener("blur", () => {
+				document.title = "Don't leave ;(";
+			});
+			window.addEventListener("focus", () => {
+				document.title = title;
+			});
+		</script>
+	</body>
 </html>
