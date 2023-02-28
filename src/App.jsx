@@ -4,6 +4,7 @@ import Landing from "./components/Landing/Landing";
 import { useEffect } from "react";
 import Features from "./components/features/Features";
 import Footer from "./components/footer/Footer";
+import Cards from "./components/cards/Cards";
 
 function App() {
 	useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
 			<Navbar />
 			<Landing />
 			<Features />
+			<Cards />
 			<Footer />
 		</>
 	);
