@@ -97,6 +97,13 @@
 	background: #ffc700 !important;
 }
 
+.control-next.control-arrow:before {
+	border-left: 1rem solid #ffc700 !important;
+}
+.control-prev.control-arrow:before {
+	border-right: 1rem solid#ffc700 !important;
+}
+
 @media only screen and (max-width: 760px) {
 	.testimonialCard {
 		flex-direction: column;
