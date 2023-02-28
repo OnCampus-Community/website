@@ -5,3 +5,28 @@
 	box-sizing: border-box;
 	font-family: Syne;
 }
+
+html {
+	scroll-behavior: smooth;
+	cursor: url("./assets/cursor.png") 20 20, auto;
+}
+
+body {
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: white;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #74247a;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 15px;
+	background-color: #74247a;
+}
