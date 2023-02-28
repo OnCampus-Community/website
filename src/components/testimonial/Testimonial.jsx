@@ -10,10 +10,11 @@ const Testimonial = () => {
 			<Carousel
 				autoPlay={true}
 				infiniteLoop={true}
-				showArrows={true}
+				showArrows={false}
 				showThumbs={false}
-				swipeable={false}
+				swipeable={true}
 				showStatus={false}
+				interval={3000}
 			>
 				<TestimonialCard
 					testi="We were able to create a large virtual network of employees that can
