@@ -9,6 +9,7 @@
 html {
 	scroll-behavior: smooth;
 	cursor: url("./assets/cursor.png") 20 20, auto;
+	user-select: none;
 }
 
 body {

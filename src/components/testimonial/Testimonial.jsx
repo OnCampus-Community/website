@@ -13,9 +13,9 @@ const Testimonial = () => {
 			<Carousel
 				autoPlay={true}
 				infiniteLoop={true}
-				showArrows={false}
+				showArrows={true}
 				showThumbs={false}
-				swipeable={true}
+				swipeable={false}
 				showStatus={false}
 				interval={3000}
 			>
