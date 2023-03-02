@@ -32,7 +32,7 @@ const Testimonial = () => {
 					I'm always on the lookout for new challenges to help me continue growing and expanding my skills as a developer. I'm driven by my passion for technology and my desire to learn and improve.
 					I'm excited to explore new opportunities to make an impact in the field and to contribute to projects that inspire me."
 					name="Debarghya Chanda"
-					position="Open-Source Contributor, Student"
+					position="Campus Ambassador-HackerEarth ,Open-Source Contributor, Student"
 					image={deb}
 				/>
 				<TestimonialCard
