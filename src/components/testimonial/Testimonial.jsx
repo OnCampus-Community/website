@@ -4,6 +4,8 @@ import deep from "../../assets/deepraj.jpeg";
 import deb from "../../assets/deb.jpg";
 import utk from "../../assets/utkarsh.jpg";
 import vaib from "../../assets/vaibhav.jpg";
+import raghav from "../../assets/raghav.png";
+import anshulRaj from "../../assets/anshulRaj.jpg";
 import { Carousel } from "react-responsive-carousel";
 import TestimonialCard from "./TestimonialCard";
 
@@ -11,7 +13,7 @@ const Testimonial = () => {
 	return (
 		<div className="Testimonial">
 			<Carousel
-				autoPlay={true}
+				autoPlay={false}
 				infiniteLoop={true}
 				showArrows={true}
 				showThumbs={false}
@@ -48,6 +50,23 @@ const Testimonial = () => {
 					name="Utkarsh Singh"
 					position="Open-Source Contributor, Student"
 					image={utk}
+				/>
+				<TestimonialCard
+					testi="My name is Raghav and I'm a computer science engineer.
+					I have knowledge in Java and Cloud technology as well as
+					i excell in public speaking and public relations. I'm very proud to be a part of the OnCampus community, 
+					which is a group of like-minded individuals 
+					who share a passion for technology and innovation."
+					name="Raghav Dixit"
+					position="I am currently serving as the HR for OnCampus community."
+					image={raghav}
+				/>
+				<TestimonialCard
+					testi="I am Anshul Raj and delighted to introduce myself as a B.Tech student who is not only pursuing his academic goals but is also working hard towards achieving his personal and professional aspirations.
+					However, my ambitions go beyond academics. I have set several goals, including gaining work experience in chosen field, developing leadership skills, and contributing to the community."
+					name="Anshul Raj"
+					position="-"
+					image={anshulRaj}
 				/>
 			</Carousel>
 		</div>
